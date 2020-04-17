@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", serif;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 100px;
+    margin-left: 200px;
+    margin-top: -140px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(to bottom, #003300 20%, #ffffff 99%);
+    color: white;
+}
+
+.body {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background-color: white;
+}
+
+.Text_block_1 {
+    float: left;
+    width: 300px;
+    padding: 35px 30px;
+    margin: 5px 1000px 0 20px;
+    border: 7px solid lightgreen;
+    border-radius: 100px;
+    background-color: #003300;
+    color: lightgreen;
+}
+
+.Text_block_2 {
+    float: left;
+    width: 340px;
+    padding: 35px 30px;
+    margin: -160px 550px 30px 430px;
+    border: 7px solid lightgreen;
+    border-radius: 100px;
+    background-color: #003300;
+    color: lightgreen;
+}
+
+.Text_block_3 {
+    float: left;
+    width: 300px;
+    padding: 35px 30px;
+    margin: -225px 30px 30px 880px;
+    border: 7px solid lightgreen;
+    border-radius: 100px;
+    background-color: #003300;
+    color: lightgreen;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    border-top: 5px solid #003300;
+    background-color: white;
+}
+
+.contacts {
+    margin-left: 25%;
+    color: #003300;
+}
+
+.tr {
+    text-align: left;
+}
+
+.link{
+    color: #003300;
+}

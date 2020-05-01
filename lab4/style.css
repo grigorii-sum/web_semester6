@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #1C242D;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px 10px 2px 10px;
+    display: flex;
+    border-bottom: solid #353d45;
+}
+
+header img {
+    margin-left: 20px;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    transition: .5s ease;
+    align-self: center;
+}
+
+header img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+header a {
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+    color: white;
+    margin: 15px 30px 15px 10px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+header a:hover {
+    background-size: 100% 2px;
+}
+
+section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 63vw;
+    padding: 20px;
+    height: 90vh;
+}
+
+p {
+    padding: 10px;
+    font-size: 24px;
+}
+
+input {
+    align-self: center;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #344151;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    transition: .5s ease;
+    margin-right: -50px;
+}
+
+input:focus {
+    width: 500px;
+}
+
+button {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #344151;
+    margin-right: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+}
+
+button:hover {
+    color: #FBD54A;
+}
+
+button:active {
+    color: #1C242D;
+    background-color: white;
+}
+
+.names {
+    font-family: "Montserrat";
+    margin-top: 70px;
+    text-align: center;
+}
+
+.ability {
+    margin-left: 20px;
+}
+
+.pokemon_image {
+    width: 288px;
+    height: 288px;
+    transition: .5s ease;
+}
+
+.pokemon_image:hover {
+    transform: scale(1.4, 1.4);
+}
+
+.polaroid {
+    width: 288px;
+    height: 100%;
+    margin-top: 15px;
+    margin-right: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid p {
+    text-align: center;
+    background-color: #1C242D;
+}
+
+.pokemon_page {
+    display: flex;
+}
+
+.sad_pokemon {
+    width: 288px;
+    height: 288px;
+}
